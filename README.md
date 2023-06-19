@@ -1,1 +1,1 @@
-# lp-bitcoineaqui
+# Landing Page for Bitcoin É Aquigi
