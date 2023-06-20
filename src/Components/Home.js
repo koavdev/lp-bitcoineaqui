@@ -15,10 +15,10 @@ const Home = () => {
             </div>
             <div className='home-text-section' style={{marginTop:'30px'}}>
                 <h1 className='primary-heading'>
-                    Bem-vindo a Rolante/RS
+                    Bitcoin É Aqui
                 </h1>
                 <p className='primary-text'>
-                Um refúgio encantador e seguro, onde a beleza natural se une à inovação do Bitcoin como forma de pagamento amplamente aceita. Imersa na deslumbrante Mata Atlântica, Rolante se orgulha de suas cachoeiras e cascatas, muitas ainda inexploradas, proporcionando uma experiência única aos visitantes.
+                Seja muito bem-vindo à <strong>Rolante/RS</strong>, a cidade mais Bitcoiner da América Latina!
                 </p>
                 <button className='secondary-button'>
                     Descubra mais <FiArrowRight />

@@ -136,11 +136,10 @@ nav {
   z-index: -2;
 }
 .about-section-image-container {
-  flex: 0.9;
-  margin-right: 1rem;
+  display: flex;
+  margin-right: 5rem;
 }
 .about-section-text-container {
-  flex: 1;
   justify-content: center;
   display: flex;
   flex-direction: column;
