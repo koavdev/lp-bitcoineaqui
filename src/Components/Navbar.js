@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className='nav-logo-container'>
-            <a href="#"><img id='logo' src={Logo} alt=""/></a>
+            <a href="www.google.com"><img id='logo' src={Logo} alt="logo"/></a>
         </div>
         <div className='navbar-links-container'>
             <a href='#Sobre'>Sobre</a>
