@@ -14,14 +14,14 @@ const Turismo = () => {
             <p className='primary-text'>Preparamos algumas opções de roteiro para facilitar sua viagem a Rolante e garantir que você chegue à nossa cidade com tranquilidade.</p>
         
             <div className='turismo-buttons-container'>
-                <button className='secondary-button'>Ver roteiros <FiArrowRight /></button>
+                <button className='secondary-button'>Acessar roteiros <FiArrowRight /></button>
             </div>
         </div>
 
         <div className="turismo-background-image-container">
             <img src={TurismoBackground} alt="" />
         </div>
-        
+
         <div className='turismo-section-image-container'>
             <img src={TurismoImage} alt="" />
         </div>

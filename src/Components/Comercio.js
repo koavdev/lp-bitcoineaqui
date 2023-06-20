@@ -7,7 +7,7 @@ import { FiArrowRight } from 'react-icons/fi';
 import Slider from "react-slick/lib/slider";
 
 const settings = {
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -60,15 +60,15 @@ const Mapa = () => {
     },
   ]
   return (
-    <div className='work-section-wrapper'>
-        <div className='work-section-top'>
+    <div className='comercio-section-container'>
+        <div className='comercio-section-top'>
             <p className='primary-subheading'> Comércio </p>
             <h1 className='primary-heading'>Onde Aceita Bitcoin?</h1>
         </div>
-        <div className='work-section-bottom'>
+        <div className='comercio-section-bottom'>
             <Slider {...settings}>
                 {estabelecimentos.map((data) => (
-                    <div className='work-section-info'>
+                    <div className='comercio-section-info'>
                         <div className='info-boxes-img-container'>
                             <img src={data.image} alt="" />
                         </div>
@@ -79,7 +79,7 @@ const Mapa = () => {
                 ))}
             </Slider>
             <div className='comercio-buttons-container'>
-                <button className='secondary-button'>Ver mais <FiArrowRight /></button>
+                <button className='secondary-button'>Ver todos <FiArrowRight /></button>
             </div>
         </div>
         

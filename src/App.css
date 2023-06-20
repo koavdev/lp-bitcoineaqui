@@ -162,7 +162,16 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.about-background-image-container {
+
+.doacoes-section-container {
+  margin-top: 20rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-background-image-container,
+.doacoes-background-image-container {
   position: absolute;
   left: -150px;
   z-index: -2;
@@ -171,7 +180,15 @@ nav {
   display: flex;
   margin-right: 5rem;
 }
-.about-section-text-container {
+
+.doacoes-section-image-container {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  margin-right: 5rem;
+}
+.about-section-text-container,
+.doacoes-section-text-container {
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -181,7 +198,8 @@ nav {
   color: #fe9e0d;
   font-size: 1.15rem;
 }
-.about-buttons-container {
+.about-buttons-container,
+.doacoes-buttons-container {
   margin-top: 2rem;
   display: flex;
 }
@@ -204,10 +222,10 @@ nav {
   font-size: 3rem;
   margin-right: 1rem;
 }
-.contact-page-wrapper h1 {
+.contact-page-container h1 {
   max-width: 900px !important;
 }
-.contact-page-wrapper {
+.contact-page-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,7 +250,7 @@ nav {
   font-size: 1.3rem;
   padding: 0.5rem 1rem;
 }
-.footer-wrapper {
+.footer-container {
   margin: 6rem 0rem;
   display: flex;
   margin-top: 10rem;
@@ -297,34 +315,33 @@ nav {
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
 }
-.work-section-wrapper {
+.comercio-section-container {
   margin-top: 15rem;
 }
 
-.work-section-top p {
+.comercio-section-top p {
   text-align: center;
   max-width: 600px !important;
 }
-.work-section-top h1 {
+.comercio-section-top h1 {
   max-width: 700px !important;
 }
-.work-section-top {
+.comercio-section-top {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.work-section-info {
+.comercio-section-info {
   max-width: 100%;
   padding: 18px;
-
   color: #505050;
   margin: 0 auto;
 }
-.work-section-info h2 {  
+.comercio-section-info h2 {  
   margin: 1rem 0rem;
 }
-.work-section-bottom {
+.comercio-section-bottom {
   text-align: center;  
   margin-top: 5rem;
 }
@@ -336,7 +353,7 @@ nav {
   margin-top: 50px;
 }
 
-.work-section-info p {
+.comercio-section-info p {
   justify-content: center;
   font-weight: 600;
 }
@@ -393,22 +410,26 @@ nav {
   }
   .home-banner-container,
   .about-section-container,
-  .turismo-section-container {
+  .turismo-section-container,
+  .doacoes-section-container {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
-  .about-section-container {
+  .about-section-container,
+  .doacoes-section-container {
     flex-direction: column;
   }
 
   .home-image-section,
   .about-section-image-container,
-  .turismo-section-image-container {
+  .turismo-section-image-container,
+  .doacoes-section-image-container {
     width: 100%;
     max-width: 400px;
     max-height: 600px;
   }
+
   .primary-heading {
     text-align: center;
     max-width: 90%;
@@ -419,7 +440,9 @@ nav {
   }
   .home-text-section,
   .about-section-text-container,
-  .turismo-section-text-container {
+  .turismo-section-text-container,
+  .doacoes-section-text-container
+   {
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
@@ -429,11 +452,15 @@ nav {
     padding: 0.8rem 2rem;
     cursor: pointer;
   }
-  .about-section-container {
+  .about-section-container,
+  .turismo-section-container,
+  .doacoes-section-container,
+  .comercio-section-container {
     margin-top: 5rem !important;
   }
   .about-buttons-container,
-  .turismo-buttons-container {
+  .turismo-buttons-container,
+  .doacoes-buttons-container {
     justify-content: center;
     flex-direction: column;
   }
@@ -449,16 +476,17 @@ nav {
   .watch-video-button svg {
     margin-right: 0.5rem !important;
   }
-  .about-section-image-container {
+  .about-section-image-container,
+  .doacoes-section-image-container {
     margin-right: 0rem !important;
   }
   .turismo-section-image-container {
     margin-left: 0rem !important;
   }
-  .work-section-wrapper {
+  .comercio-section-container {
     margin-top: 5rem !important;
   }
-  .work-section-bottom {
+  .comercio-section-bottom {
     margin-top: 1rem !important;
   }
   .contact-form-container {
@@ -475,7 +503,7 @@ nav {
     margin-bottom: 0.8rem !important;
     text-align: center;
   }
-  .footer-wrapper {
+  .footer-container {
     flex-direction: column;
   }
   .footer-section-two {
@@ -492,7 +520,8 @@ nav {
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container,
-  .turismo-background-image-container {
+  .turismo-background-image-container,
+  .doacoes-background-image-container {
     display: none;
   }
 }
