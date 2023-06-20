@@ -10,10 +10,12 @@ const settings = {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 3000,
     arrows: true,
     dots: true,
-    draggable: true,
+    focusOnSelect: true,
+    initialSlide: 0,
+
   };
 
 const Mapa = () => {
