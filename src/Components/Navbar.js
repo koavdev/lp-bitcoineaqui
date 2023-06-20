@@ -44,11 +44,11 @@ const Navbar = () => {
             <a href=""><img id='logo' src={Logo} alt=""/></a>
         </div>
         <div className='navbar-links-container'>
-            <a href=''>Sobre</a>
-            <a href=''>Comércio</a>
-            <a href=''>Turismo</a>
-            <a href=''>Doações</a>
-            <a href=''>
+            <a href='#Sobre'>Sobre</a>
+            <a href='#Comercio'>Comércio</a>
+            <a href='#Turismo'>Turismo</a>
+            <a href='#Doacoes'>Doações</a>
+            <a href='#Aprenda'>
                 <FaBitcoin className="navbar-cart-icon" />
             </a>
             <button className='primary-button'>Contato</button>

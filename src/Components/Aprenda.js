@@ -5,7 +5,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const Aprenda = () => {
   return (
-    <div className='aprenda-section-container'>
+    <div id="Aprenda" className='aprenda-section-container'>
         <div className='aprenda-section-text-container'>
             <p className='primary-subheading'>Aprenda</p>
             <h1 className='primary-heading'>Estude Sobre Bitcoin</h1>

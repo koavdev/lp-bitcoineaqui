@@ -510,6 +510,13 @@ nav {
   .App {
     max-width: 95vw;
   }
+  .home-bannerImage-container,
+  .about-background-image-container,
+  .turismo-background-image-container,
+  .doacoes-background-image-container,
+  .aprenda-background-image-container {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .home-bannerImage-container,

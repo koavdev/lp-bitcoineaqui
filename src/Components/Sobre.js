@@ -6,7 +6,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const Sobre = () => {
   return (
-    <div className='about-section-container'>
+    <div id="Sobre" className='about-section-container'>
         <div className='about-background-image-container'>
             <img src={AboutBackground} alt="" />
         </div>

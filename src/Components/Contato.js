@@ -5,7 +5,7 @@ import Nostr from "../Assets/nostr.png"
 
 const Contato = () => {
   return (
-    <div className='contato-section-container'>
+    <div id="Contato" className='contato-section-container'>
         <div className='contato-section-top'>
             <p className='primary-subheading'>Contato</p>
             <h1 className='primary-heading'>Nossas Redes Sociais</h1>

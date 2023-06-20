@@ -5,7 +5,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 const Turismo = () => {
   return (
-    <div className='turismo-section-container'>
+    <div id="Turismo" className='turismo-section-container'>
         <div className='turismo-section-text-container'>
             <p className='primary-subheading'>Turismo</p>
             <h1 className='primary-heading'>

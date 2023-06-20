@@ -60,7 +60,7 @@ const Mapa = () => {
     },
   ]
   return (
-    <div className='comercio-section-container'>
+    <div id="Comercio" className='comercio-section-container'>
         <div className='comercio-section-top'>
             <p className='primary-subheading'> Comércio </p>
             <h1 className='primary-heading'>Onde Aceita Bitcoin?</h1>

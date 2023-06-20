@@ -5,7 +5,7 @@ import ProjetoImage from "../Assets/bitcoineaqui.png"
 
 const Doacoes = () => {
   return (
-    <div className='doacoes-section-container'>
+    <div id="Doacoes" className='doacoes-section-container'>
         <div className='doacoes-background-image-container'>
             <img src={AboutBackground} alt="" />
         </div>
