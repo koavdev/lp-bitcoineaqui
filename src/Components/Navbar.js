@@ -17,7 +17,7 @@ const Navbar = () => {
             icon: <AiFillHome />,
         },
         {
-            text:"Mapa",
+            text:"Comércio",
             icon: <FaMapMarkerAlt />,
         },
         {
@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
         <div className='navbar-links-container'>
             <a href=''>Sobre</a>
-            <a href=''>Mapa</a>
+            <a href=''>Comércio</a>
             <a href=''>Turismo</a>
             <a href=''>Doações</a>
             <a href=''>
