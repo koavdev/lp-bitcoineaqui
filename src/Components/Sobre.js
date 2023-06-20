@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutBackground from "../Assets/about-background.png"
-import AboutBackgroundImage from "../Assets/about-background-image.jpeg"
+import AboutImage from "../Assets/about-background-image.jpeg"
 import { FiArrowRight } from 'react-icons/fi';
 
 
@@ -11,7 +11,7 @@ const Sobre = () => {
             <img src={AboutBackground} alt="" />
         </div>
         <div className="about-section-image-container">
-            <img src={AboutBackgroundImage} alt="" />
+            <img src={AboutImage} alt="" />
         </div>
         <div className='about-section-text-container'>
             <p className='primary-subheading'>Sobre</p>
