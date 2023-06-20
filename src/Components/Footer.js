@@ -1,6 +1,4 @@
 import React from 'react'
-import Logo from '../Assets/logo2.png';
-import { FaInstagramSquare, FaWhatsappSquare, FaTwitterSquare } from 'react-icons/fa';
 
 const Footer = () => {
   return (
