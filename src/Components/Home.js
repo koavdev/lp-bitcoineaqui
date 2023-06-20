@@ -11,7 +11,7 @@ const Home = () => {
         <Navbar />
         <div className='home-banner-container'>
             <div className="home-bannerImage-container">
-                <img src={BannerBackground} alt="" />
+                <img src={BannerBackground} alt="background" />
             </div>
             <div className='home-text-section' style={{marginTop:'30px'}}>
                 <h1 className='primary-heading'>
@@ -25,7 +25,7 @@ const Home = () => {
                 </button>
             </div>
             <div className='home-image-container'>
-                <img className='animate__animated animate__slideInRight animate__slow' src={BannerImage} width='600px'/>
+                <img alt="bitcoin" className='animate__animated animate__slideInRight animate__slow' src={BannerImage} width='600px'/>
             </div> 
         </div>
     </div>

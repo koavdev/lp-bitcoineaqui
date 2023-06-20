@@ -7,10 +7,10 @@ const Doacoes = () => {
   return (
     <div id="Doacoes" className='doacoes-section-container'>
         <div className='doacoes-background-image-container'>
-            <img src={AboutBackground} alt="" />
+            <img src={AboutBackground} alt="background" />
         </div>
         <div className="doacoes-section-image-container">
-            <img src={ProjetoImage} alt="" />
+            <img src={ProjetoImage} alt="project" />
         </div>
         <div className='doacoes-section-text-container'>
             <p className='primary-subheading'>Doações</p>

@@ -70,7 +70,7 @@ const Mapa = () => {
                 {estabelecimentos.map((data) => (
                     <div className='comercio-section-info'>
                         <div className='info-boxes-img-container'>
-                            <img src={data.image} alt="" />
+                            <img src={data.image} alt="points of sale" />
                         </div>
                         <h2>{data.title}</h2>
                         <p><AiFillPhone /> {data.phone}</p>

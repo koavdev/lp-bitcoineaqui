@@ -16,10 +16,10 @@ const Aprenda = () => {
         </div>
 
         <div className="aprenda-background-image-container">
-            <img src={AprendaBackground} alt="" />
+            <img src={AprendaBackground} alt="background" />
         </div>
         <div className='aprenda-section-image-container'>
-            <img src={AprendaImage} alt="" />
+            <img src={AprendaImage} alt="study bitcoin" />
         </div>
     </div>
   )

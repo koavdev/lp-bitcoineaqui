@@ -19,11 +19,11 @@ const Turismo = () => {
         </div>
 
         <div className="turismo-background-image-container">
-            <img src={TurismoBackground} alt="" />
+            <img src={TurismoBackground} alt="background" />
         </div>
 
         <div className='turismo-section-image-container'>
-            <img src={TurismoImage} alt="" />
+            <img src={TurismoImage} alt="rolante" />
         </div>
         
         

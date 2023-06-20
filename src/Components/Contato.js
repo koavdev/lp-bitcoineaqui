@@ -13,15 +13,15 @@ const Contato = () => {
         </div>
         <div className='contato-section-bottom'>
             <div className='contato-section-columns'>
-                <a href="https://www.instagram.com/bitcoineaqui/" ><img src={Instagram} alt="" /></a>
+                <a alt="instagram" href="https://www.instagram.com/bitcoineaqui/" ><img src={Instagram} alt="" /></a>
                 <p>Instagram</p>
             </div>
             <div className='contato-section-columns'>
-                <a href="https://twitter.com/bitcoineaqui" ><img src={Twitter} alt="" /></a>
+                <a alt="twitter" href="https://twitter.com/bitcoineaqui" ><img src={Twitter} alt="" /></a>
                 <p>Twitter</p>
             </div>
             <div className='contato-section-columns'>
-                <a href="https://iris.to/bitcoineaqui" ><img id="nostr" src={Nostr} alt="" /></a>
+                <a alt="nostr" href="https://iris.to/bitcoineaqui" ><img id="nostr" src={Nostr} alt="" /></a>
                 <p>Nostr</p>
             </div>
         </div>
