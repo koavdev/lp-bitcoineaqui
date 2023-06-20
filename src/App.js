@@ -5,6 +5,8 @@ import Comercio from './Components/Comercio';
 import Turismo from './Components/Turismo';
 import Doacoes from './Components/Doacoes';
 import Aprenda from './Components/Aprenda';
+import Footer from './Components/Footer';
+import Contato from './Components/Contato';
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <Comercio />  
       <Doacoes />
       <Aprenda />
+      <Contato />
+      <Footer />
+      
     </div>
   );
 }

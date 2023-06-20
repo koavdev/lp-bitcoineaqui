@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../Assets/logo2.png';
 import { HiOutlineBars3 } from 'react-icons/hi2';
 import { AiFillHome, AiFillMail } from 'react-icons/ai';
-import { GiOpenBook } from 'react-icons/gi';
+import { FaBitcoin } from 'react-icons/fa';
 import { MdCardTravel } from 'react-icons/md';
 import { FaDonate, FaMapMarkerAlt } from 'react-icons/fa';
 import { useState } from 'react';
@@ -30,7 +30,7 @@ const Navbar = () => {
         },
         {
             text:"Aprender+",
-            icon: <GiOpenBook />,
+            icon: <FaBitcoin />,
         },
         {
             text:"Contato",
@@ -49,7 +49,7 @@ const Navbar = () => {
             <a href=''>Turismo</a>
             <a href=''>Doações</a>
             <a href=''>
-                <GiOpenBook className="navbar-cart-icon" />
+                <FaBitcoin className="navbar-cart-icon" />
             </a>
             <button className='primary-button'>Contato</button>
         </div>

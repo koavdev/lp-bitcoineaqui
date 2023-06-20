@@ -255,83 +255,39 @@ nav {
   font-size: 1.3rem;
   padding: 0.5rem 1rem;
 }
-.footer-container {
-  margin: 6rem 0rem;
-  display: flex;
+
+.footer-section-container {  
+  min-width: 100%;
   margin-top: 10rem;
+  background-color: #fe9e0d;
+  
 }
-.footer-logo-container {
-  max-width: 110px;
-}
-.footer-icons {
-  margin-top: 2.5rem;
-}
-.footer-icons svg {
-  font-size: 1.5rem;
-  margin-right: 1.25rem;
-  color: #585858;
-}
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
-.footer-section-two {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-.footer-section-columns {
-  display: flex;
-  flex-direction: column;
-  min-width: 190px;
-}
-.footer-section-columns span {
-  margin: 0.25rem 0rem;
-  font-weight: 600;
-  color: #4c4c4c;
-  cursor: pointer;
-}
-.testimonial-section-bottom {
-  margin-top: 2rem;
-  background-color: white;
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 750px;
-  border-radius: 2rem;
-  flex-direction: column;
+
+.footer-text {
   text-align: center;
+  justify-content: center;  
+  margin-top: 15rem;
+  margin-bottom: 0;
+  color: #313131;
 }
-.testimonial-section-bottom {
-  margin: 2rem auto;
-}
-.testimonial-section-bottom p {
-  font-weight: 700;
-  color: #515151;
-  max-width: 500px;
-  font-size: 1.1rem;
-  margin: 2rem 0rem;
-}
-.testimonials-stars-container svg {
-  margin: 0rem 0.25rem;
-  font-size: 1.5rem;
-  color: #fe9e0d;
-}
-.testimonial-section-bottom h2 {
-  margin-top: 1.5rem;
-}
-.comercio-section-container {
+
+
+.comercio-section-container,
+.contato-section-container {
   margin-top: 15rem;
 }
 
-.comercio-section-top p {
+.comercio-section-top p,
+.contato-section-top p {
   text-align: center;
   max-width: 600px !important;
 }
-.comercio-section-top h1 {
+.comercio-section-top h1,
+.contato-section-top h1 {
   max-width: 700px !important;
 }
-.comercio-section-top {
+.comercio-section-top,
+.contato-section-top {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,7 +302,7 @@ nav {
 .comercio-section-info h2 {  
   margin: 1rem 0rem;
 }
-.comercio-section-bottom {
+.comercio-section-bottom{
   text-align: center;  
   margin-top: 5rem;
 }
@@ -373,6 +329,36 @@ nav {
   margin: 0 auto;
 }
 
+.contato-section-bottom {
+  column-count: 3;
+  column-gap: 50px;
+  margin-top: 5rem;
+  
+}
+.contato-section-columns {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.contato-section-columns img{
+ width:200px;
+ height: 200px;
+}
+
+.contato-section-columns img#nostr{
+  width:380px;
+  height: 200px;
+ }
+
+.contato-section-columns a{
+  opacity: 1;
+ }
+
+.contato-section-columns a:hover{
+  opacity: 0.5;
+ }
+
 .nav-logo-container {
   max-width: 210px;
 }
@@ -393,6 +379,16 @@ nav {
   .home-bannerImage-container {
     max-width: 600px;
   }
+
+  .contato-section-columns img{
+    width:120px;
+    height: 120px;
+   }
+   
+   .contato-section-columns img#nostr{
+     width:260px;
+     height: 120px;
+    }
 }
 
 
@@ -483,14 +479,7 @@ nav {
   .primary-subheading {
     text-align: center;
   }
-  .watch-video-button {
-    margin-left: 0rem !important;
-    margin-top: 1rem;
-    font-size: 1rem !important;
-  }
-  .watch-video-button svg {
-    margin-right: 0.5rem !important;
-  }
+
   .about-section-image-container,
   .doacoes-section-image-container {
     margin-right: 0rem !important;
@@ -499,36 +488,25 @@ nav {
   .aprenda-section-image-container {
     margin-left: 0rem !important;
   }
-  .comercio-section-container {
+  .comercio-section-container,
+  .contato-section-container{
     margin-top: 5rem !important;
   }
-  .comercio-section-bottom {
+  .comercio-section-bottom,
+  .contato-section-bottom {
     margin-top: 1rem !important;
   }
-  .contact-form-container {
-    padding: 0.5rem !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem !important;
+
+  .contato-section-columns img{
+    width:60px;
+    height: 60px;
   }
-  .contact-form-container input {
-    font-size: 1rem !important;
-    max-width: 100%;
-    padding: 0.5rem 1rem !important;
-    margin-bottom: 0.8rem !important;
-    text-align: center;
+
+  .contato-section-columns img#nostr{
+    width:110px;
+    height: 60px;
   }
-  .footer-container {
-    flex-direction: column;
-  }
-  .footer-section-two {
-    flex-direction: column;
-    margin-top: 2rem;
-  }
-  .footer-section-columns {
-    margin: 1rem 0rem;
-  }
+
   .App {
     max-width: 95vw;
   }
