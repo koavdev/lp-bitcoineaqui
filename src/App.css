@@ -72,12 +72,14 @@ nav {
   padding-top: 3rem;
 }
 
-.turismo-buttons-container {
+.turismo-buttons-container,
+.aprenda-buttons-container {
   margin-top: 2rem;
   display: flex;
 }
 
-.turismo-section-container {
+.turismo-section-container,
+.aprenda-section-container {
   margin-top: 15rem;
   position: relative;
   display: flex;
@@ -85,19 +87,22 @@ nav {
   justify-content: space-between;
 }
 
-.turismo-section-image-container {
+.turismo-section-image-container,
+.aprenda-section-image-container {
   display: flex;
   margin-left: 5rem;
 }
 
-.turismo-background-image-container {
+.turismo-background-image-container,
+.aprenda-background-image-container {
   position: absolute;
   right: -130px;
   z-index: -2;
 
 }
 
-.turismo-section-text-container {
+.turismo-section-text-container,
+.aprenda-section-text-container {
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -389,6 +394,8 @@ nav {
     max-width: 600px;
   }
 }
+
+
 @media (max-width: 800px) {
   .nav-logo-container {
     max-width: 210px;
@@ -411,7 +418,8 @@ nav {
   .home-banner-container,
   .about-section-container,
   .turismo-section-container,
-  .doacoes-section-container {
+  .doacoes-section-container,
+  .aprenda-section-container {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -423,11 +431,15 @@ nav {
 
   .home-image-section,
   .about-section-image-container,
-  .turismo-section-image-container,
-  .doacoes-section-image-container {
+  .turismo-section-image-container {
     width: 100%;
     max-width: 400px;
     max-height: 600px;
+  }
+  
+  .doacoes-section-image-container{
+    width: 380px;
+    max-height: 250px;
   }
 
   .primary-heading {
@@ -441,7 +453,8 @@ nav {
   .home-text-section,
   .about-section-text-container,
   .turismo-section-text-container,
-  .doacoes-section-text-container
+  .doacoes-section-text-container,
+  .aprenda-section-text-container
    {
     justify-content: center;
     align-items: center;
@@ -455,12 +468,14 @@ nav {
   .about-section-container,
   .turismo-section-container,
   .doacoes-section-container,
-  .comercio-section-container {
+  .comercio-section-container,
+  .aprenda-section-container {
     margin-top: 5rem !important;
   }
   .about-buttons-container,
   .turismo-buttons-container,
-  .doacoes-buttons-container {
+  .doacoes-buttons-container,
+  .aprenda-buttons-container {
     justify-content: center;
     flex-direction: column;
   }
@@ -480,7 +495,8 @@ nav {
   .doacoes-section-image-container {
     margin-right: 0rem !important;
   }
-  .turismo-section-image-container {
+  .turismo-section-image-container,
+  .aprenda-section-image-container {
     margin-left: 0rem !important;
   }
   .comercio-section-container {
@@ -521,7 +537,8 @@ nav {
   .home-bannerImage-container,
   .about-background-image-container,
   .turismo-background-image-container,
-  .doacoes-background-image-container {
+  .doacoes-background-image-container,
+  .aprenda-background-image-container {
     display: none;
   }
 }
