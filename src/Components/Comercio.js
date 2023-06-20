@@ -4,8 +4,21 @@ import Bennato from '../Assets/Bennato.png'
 import Hospital from '../Assets/Hospital.png'
 import { AiFillPhone, AiFillInstagram } from 'react-icons/ai';
 import { FiArrowRight } from 'react-icons/fi';
+import Slider from "react-slick/lib/slider";
+
+const settings = {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 500,
+    arrows: true,
+    dots: true,
+    draggable: true,
+  };
 
 const Mapa = () => {
+  
+
   const estabelecimentos = [
     {
         image: AlCapone,
@@ -25,6 +38,24 @@ const Mapa = () => {
         phone: "5135471300",
         url: "@hospitalrolante",
     },
+    {
+        image: Hospital,
+        title: "Hospital de Rolante",
+        phone: "5135471300",
+        url: "@hospitalrolante",
+    },
+    {
+        image: Hospital,
+        title: "Hospital de Rolante",
+        phone: "5135471300",
+        url: "@hospitalrolante",
+    },
+    {
+        image: Hospital,
+        title: "Hospital de Rolante",
+        phone: "5135471300",
+        url: "@hospitalrolante",
+    },
   ]
   return (
     <div className='work-section-wrapper'>
@@ -33,18 +64,21 @@ const Mapa = () => {
             <h1 className='primary-heading'>Onde Aceita Bitcoin?</h1>
         </div>
         <div className='work-section-bottom'>
-            {estabelecimentos.map((data) => (
-                <div className='work-section-info'>
-                    <div className='info-boxes-img-container'>
-                        <img src={data.image} alt="" />
-                    </div>
-                    <h2>{data.title}</h2>
-                    <p><AiFillPhone /> {data.phone}</p>
-                    <p><AiFillInstagram />{data.url}</p>
-                </div>
-            ))}
-            
-            <button className='secondary-button'>Ver mais <FiArrowRight /></button>
+            <Slider {...settings}>
+                {estabelecimentos.map((data) => (
+                    <div className='work-section-info'>
+                        <div className='info-boxes-img-container'>
+                            <img src={data.image} alt="" />
+                        </div>
+                        <h2>{data.title}</h2>
+                        <p><AiFillPhone /> {data.phone}</p>
+                        <p><AiFillInstagram />{data.url}</p>
+                    </div>            
+                ))}
+            </Slider>
+            <div className='comercio-buttons-container'>
+                <button className='secondary-button'>Ver mais <FiArrowRight /></button>
+            </div>
         </div>
         
     </div>

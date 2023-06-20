@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import Sobre from './Components/Sobre';
 import Comercio from './Components/Comercio';
 import Turismo from './Components/Turismo';
+import Doacoes from './Components/Doacoes';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Sobre />
       <Comercio />
       <Turismo />
+      <Doacoes />
     </div>
   );
 }
