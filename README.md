@@ -1,1 +1,1 @@
-# Landing Page for Bitcoin É Aquigi
+# Landing Page for Bitcoin É Aqui
