@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png"
 import BannerImage from "../Assets/home-banner-image.png"
 import { FiArrowRight } from 'react-icons/fi';
+import 'animate.css';
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
             <div className="home-bannerImage-container">
                 <img src={BannerBackground} alt="" />
             </div>
-            <div className='home-text-section'>
+            <div className='home-text-section' style={{marginTop:'30px'}}>
                 <h1 className='primary-heading'>
                     Bem-vindo a Rolante/RS
                 </h1>
@@ -24,7 +25,7 @@ const Home = () => {
                 </button>
             </div>
             <div className='home-image-container'>
-                <img src={BannerImage} width='600px'/>
+                <img className='animate__animated animate__slideInRight animate__slow' src={BannerImage} width='600px'/>
             </div> 
         </div>
     </div>

@@ -13,7 +13,7 @@ const Navbar = () => {
     const [openMenu,setOpenMenu] = useState(false)
     const menuOptions = [
         {
-            text:"Home",
+            text:"Sobre",
             icon: <AiFillHome />,
         },
         {
@@ -41,10 +41,10 @@ const Navbar = () => {
   return (
     <nav>
         <div className='nav-logo-container'>
-            <img src={Logo} alt="" width='250px'/>
+            <a href=""><img id='logo' src={Logo} alt=""/></a>
         </div>
         <div className='navbar-links-container'>
-            <a href=''>Home</a>
+            <a href=''>Sobre</a>
             <a href=''>Mapa</a>
             <a href=''>Turismo</a>
             <a href=''>Doações</a>

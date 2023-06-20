@@ -39,6 +39,11 @@ nav {
   font-size: 1.1rem;
   font-weight: 600;
 }
+
+.navbar-links-container a:hover {
+  color: rgb(234, 234, 234);
+}
+
 .primary-button {
   padding: 0.9rem 1.75rem;
   background-color: white;
@@ -51,7 +56,8 @@ nav {
   transition: 0.2s;
 }
 .navbar-cart-icon {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  
 }
 .primary-button:hover {
   background-color: rgb(234, 234, 234);
@@ -307,6 +313,15 @@ nav {
   font-weight: 600;
 }
 
+.nav-logo-container {
+  max-width: 210px;
+}
+
+#logo {
+  display: flex;
+  margin-top: 10px;
+}
+
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;
@@ -321,9 +336,14 @@ nav {
 }
 @media (max-width: 800px) {
   .nav-logo-container {
-    max-width: 140px;
-    
+    max-width: 210px;
   }
+
+  #logo {
+    display: flex;
+    margin-top: 10px;
+  }
+
   .navbar-links-container {
     display: none;
   }
