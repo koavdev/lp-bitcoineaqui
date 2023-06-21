@@ -258,17 +258,16 @@ nav {
 
 .footer-section-container {  
   min-width: 100%;
-  margin-top: 10rem;
   background-color: #fe9e0d;
-  
-}
-
-.footer-text {
   text-align: center;
   justify-content: center;  
-  margin-top: 15rem;
-  margin-bottom: 0;
+  margin-top: 5rem;;
+}
+
+.footer-text {    
   color: #313131;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 
@@ -494,6 +493,19 @@ nav {
     height: 60px;
   }
 
+  .footer-section-container {  
+    min-width: 100%;
+    background-color: #fe9e0d;
+    text-align: center;
+    justify-content: center;  
+    
+  }
+  
+  .footer-text {    
+    color: #313131;
+    font-weight: 400;
+    font-size: 24px;
+  }
   
 
   .App {
