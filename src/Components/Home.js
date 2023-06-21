@@ -18,7 +18,7 @@ const Home = () => {
                     Bitcoin É Aqui
                 </h1>
                 <p className='primary-text'>
-                Seja muito bem-vindo à <strong>Rolante/RS</strong>, a cidade mais Bitcoiner da América Latina!
+                Seja muito bem-vindo à <strong>Rolante/RS</strong>, a cidade mais Bitcoiner da América do Sul!
                 </p>
                 <button className='secondary-button'>
                     Descubra mais <FiArrowRight />
