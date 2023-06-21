@@ -261,7 +261,7 @@ nav {
   background-color: #fe9e0d;
   text-align: center;
   justify-content: center;  
-  margin-top: 5rem;;
+  margin-top: 5rem;
 }
 
 .footer-text {    
@@ -372,6 +372,14 @@ nav {
   }
   .home-bannerImage-container {
     max-width: 600px;
+  }
+
+  .contato-section-columns {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 16px;
   }
 
   .contato-section-columns img{
@@ -488,23 +496,34 @@ nav {
     margin-top: 1rem !important;
   }
 
+  .contato-section-columns {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
   .contato-section-columns img{
     width:60px;
     height: 60px;
   }
 
+
   .footer-section-container {  
     min-width: 100%;
     background-color: #fe9e0d;
     text-align: center;
-    justify-content: center;  
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;  
     
   }
   
   .footer-text {    
     color: #313131;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
   }
   
 
