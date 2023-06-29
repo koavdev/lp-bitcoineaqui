@@ -1,7 +1,7 @@
 import React from 'react'
 import Instagram from "../Assets/instagram.png"
 import Twitter from "../Assets/twitter.png"
-import Nostr from "../Assets/nostr.png"  
+import Nostr from "../Assets/nostr.png"
 
 const Contato = () => {
   return (
@@ -13,7 +13,7 @@ const Contato = () => {
         </div>
         <div className='contato-section-bottom'>
             <div className='contato-section-columns'>
-                <a alt="instagram" href="https://www.instagram.com/bitcoineaqui/" ><img src={Instagram} alt="" /></a>
+                <a alt="instagram" href="https://www.instagram.com/bitcoineaqui/" ><img src={Instagram} alt=""/></a>
                 <p>Instagram</p>
             </div>
             <div className='contato-section-columns'>

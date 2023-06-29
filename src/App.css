@@ -32,6 +32,7 @@ nav {
 .navbar-menu-container {
   display: none;
 }
+
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
@@ -265,7 +266,7 @@ margin-top: 25rem;
   background-color: #fe9e0d;
   text-align: center;
   justify-content: center;  
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .footer-text {    
@@ -342,11 +343,18 @@ margin-top: 25rem;
   text-align: center;
   font-weight: 600;
   font-size: 24px;
+
+ 
 }
 
 .contato-section-columns img{
  width:200px;
  height: 200px;
+}
+
+.contato-section-columns img:hover{
+  animation: pulse;
+  animation-duration: 2s;
 }
 
 .contato-section-columns a{
@@ -355,6 +363,7 @@ margin-top: 25rem;
 
 .contato-section-columns a:hover{
   opacity: 0.5;
+  
  }
 
 .nav-logo-container {
