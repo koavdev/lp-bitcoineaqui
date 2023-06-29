@@ -2,6 +2,9 @@ import React from 'react'
 import AlCapone from '../Assets/AlCapone.png'
 import Bennato from '../Assets/Bennato.png'
 import Hospital from '../Assets/Hospital.png'
+import Cafe from '../Assets/Cafe.jpg'
+import Cervejaria from '../Assets/Cervejaria.png'
+import Arquitetura from '../Assets/Arquitetura.jpg'
 import { AiFillPhone, AiFillInstagram } from 'react-icons/ai';
 import { FiArrowRight } from 'react-icons/fi';
 import Slider from "react-slick/lib/slider";
@@ -41,22 +44,22 @@ const Mapa = () => {
         url: "@hospitalrolante",
     },
     {
-        image: Hospital,
-        title: "Hospital de Rolante",
-        phone: "5135471300",
-        url: "@hospitalrolante",
+        image: Arquitetura,
+        title: "AMS Arquitetura e Interiores",
+        phone: "51998229190	",
+        url: "@ams.arquitetura",
     },
     {
-        image: Hospital,
-        title: "Hospital de Rolante",
-        phone: "5135471300",
-        url: "@hospitalrolante",
+        image: Cafe,
+        title: "DoisZé Café Bistrô",
+        phone: "5127471577",
+        url: "@doiszecafebistro",
     },
     {
-        image: Hospital,
-        title: "Hospital de Rolante",
-        phone: "5135471300",
-        url: "@hospitalrolante",
+        image: Cervejaria,
+        title: "Cervejaria DBuenas",
+        phone: "51984590660",
+        url: "@dbuenas_nanocervejaria",
     },
   ]
   return (
