@@ -13,7 +13,7 @@ const Home = () => {
             <div className="home-bannerImage-container">
                 <img src={BannerBackground} alt="background" />
             </div>
-            <div className='home-text-section' style={{marginTop:'30px'}}>
+            <div className='home-text-section animate__animated animate__slideInLeft animate__slow' style={{marginTop:'30px'}}>
                 <h1 className='primary-heading'>
                     Bitcoin É Aqui
                 </h1>
@@ -24,8 +24,8 @@ const Home = () => {
                     Descubra mais <FiArrowRight />
                 </button>
             </div>
-            <div className='home-image-container'>
-                <img alt="bitcoin" className='animate__animated animate__slideInRight animate__slow' src={BannerImage} width='600px'/>
+            <div className='home-image-container animate__animated animate__slideInRight animate__slow'>
+                <img alt="bitcoin" src={BannerImage} width='600px'/>
             </div> 
         </div>
     </div>

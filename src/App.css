@@ -79,6 +79,7 @@ nav {
   display: flex;
 }
 
+
 .turismo-section-container,
 .aprenda-section-container {
   margin-top: 20rem;
@@ -161,6 +162,7 @@ margin-top: 25rem;
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
+  
 }
 .secondary-button:hover {
   background-color: #e48f0f;

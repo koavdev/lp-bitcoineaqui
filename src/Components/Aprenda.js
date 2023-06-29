@@ -11,7 +11,7 @@ const Aprenda = () => {
             <h1 className='primary-heading'>Estude Sobre Bitcoin</h1>
             <p className='primary-text'>Estudar sobre Bitcoin é importante para entender como a tecnologia blockchain pode transformar o mundo.</p>
             <div className='aprenda-buttons-container'>
-                <button className='secondary-button'>Estudar <FiArrowRight /></button>
+                <button className='secondary-button'><span>Estudar <FiArrowRight /></span></button>
             </div>
         </div>
 
