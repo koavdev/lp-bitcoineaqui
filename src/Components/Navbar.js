@@ -48,10 +48,8 @@ const Navbar = () => {
             <a href='#Comercio'>Comércio</a>
             <a href='#Turismo'>Turismo</a>
             <a href='#Doacoes'>Doações</a>
-            <a href='#Aprenda'>
-                <FaBitcoin className="navbar-cart-icon" />
-            </a>
-            <button className='primary-button'>Contato</button>
+            <a href='#Aprenda'>Aprenda</a>
+            <a href='#Contato'>Contato</a>
         </div>
         <div className='navbar-menu-container'>
             <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
