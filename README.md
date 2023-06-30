@@ -1,6 +1,6 @@
 # Landing Page for Bitcoin É Aqui
 
-A remastered website for [Bitcoin É Aqui](www.bitcoineaqui.com.br).
+A remastered website for [Bitcoin É Aqui](https://www.bitcoineaqui.com.br/).
 
 Online on [**Netlify**](https://prismatic-dieffenbachia-e871d7.netlify.app/)
 
