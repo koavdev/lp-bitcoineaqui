@@ -44,12 +44,12 @@ const Navbar = () => {
             <a href="/"><img id='logo' src={Logo} alt="logo"/></a>
         </div>
         <div className='navbar-links-container'>
-            <a href='#Sobre'>Sobre</a>
-            <a href='#Turismo'>Turismo</a>
-            <a href='#Comercio'>Comércio</a>
-            <a href='#Doacoes'>Doações</a>
-            <a href='#Aprenda'>Aprenda</a>
-            <a href='#Contato'>Contato</a>
+            <a href='/sobre'>Sobre</a>
+            <a href='/turismo'>Turismo</a>
+            <a href='/comercio'>Comércio</a>
+            <a href='/doacoes'>Doações</a>
+            <a href='/aprenda'>Aprenda</a>
+            <a href='/contato'>Contato</a>
         </div>
         <div className='navbar-menu-container'>
             <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
