@@ -6,7 +6,9 @@ const comercio = () => {
   return (
     <div>
         <Navbar/>
+        <div className='page-container' style={{border: '1px solid red'}}>
         <h1>comercio</h1>
+        </div>
         <Footer/>
     </div>
   )

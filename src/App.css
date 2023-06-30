@@ -4,10 +4,12 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+ 
 img {
   max-width: 100%;
   height: auto;
 }
+
 .App {
   min-height: 100vh;
   width: 85vw;
@@ -17,11 +19,14 @@ img {
 body {
   max-width: 100%;
   overflow-x: hidden;
-}
-
-body {
   background-color: #f6f6f6;
 }
+
+.page-container {
+  display:flex;
+  flex-direction: column;
+}
+
 
 nav {
   display: flex;
@@ -264,7 +269,6 @@ margin-top: 25rem;
 }
 
 .footer-section-container {  
-  min-width: 100%;
   background-color: #fe9e0d;
   text-align: center;
   justify-content: center;  
@@ -407,6 +411,7 @@ margin-top: 25rem;
 
 
 @media (max-width: 800px) {
+
   .nav-logo-container {
     max-width: 210px;
   }
@@ -531,7 +536,8 @@ margin-top: 25rem;
     text-align: center;
     justify-content: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;  
+    padding-bottom: 1rem;
+      
     
   }
   
@@ -539,12 +545,14 @@ margin-top: 25rem;
     color: #313131;
     font-weight: 400;
     font-size: 14px;
-  }
-  
+  }  
 
   .App {
     max-width: 95vw;
+    overflow-x: hidden;
+    margin: 0 auto;
   }
+  
   .home-bannerImage-container,
   .about-background-image-container,
   .turismo-background-image-container,

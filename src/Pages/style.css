@@ -1,0 +1,39 @@
+.page-container {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.about-heading {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    width: 90vh;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+}
+
+#sobre3 {
+    height: 250px;
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width:800px) {
+    .about-text{
+        width: 100%;
+    }
+}

@@ -6,7 +6,9 @@ const contato = () => {
   return (
     <div>
         <Navbar/>
+        <div className='page-container' style={{border: '1px solid red'}}>
         <h1>contato</h1>
+        </div>
         <Footer/>
     </div>
   )
