@@ -45,8 +45,8 @@ const Navbar = () => {
         </div>
         <div className='navbar-links-container'>
             <a href='#Sobre'>Sobre</a>
-            <a href='#Comercio'>Comércio</a>
             <a href='#Turismo'>Turismo</a>
+            <a href='#Comercio'>Comércio</a>
             <a href='#Doacoes'>Doações</a>
             <a href='#Aprenda'>Aprenda</a>
             <a href='#Contato'>Contato</a>
