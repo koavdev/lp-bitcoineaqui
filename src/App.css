@@ -269,6 +269,12 @@ margin-top: 25rem;
   padding: 0.5rem 1rem;
 }
 
+.footer-container {
+  position: absolute;
+  min-width: 100vw;
+  left: -12px;
+}
+
 .footer-content {
   background-color: #111;
   display: flex;
@@ -429,12 +435,19 @@ margin-top: 25rem;
     width:120px;
     height: 120px;
    }
-   
+
    
 }
 
 
 @media (max-width: 800px) {
+
+     
+  .footer-content p{
+    margin: 20px 20px;
+    overflow-x: hidden;
+    
+  }
 
   .nav-logo-container {
     max-width: 210px;
@@ -452,6 +465,9 @@ margin-top: 25rem;
   .navbar-menu-container {
     display: flex;
   }
+
+  
+  
   .home-bannerImage-container {
     max-width: 450px;
   }
@@ -553,24 +569,6 @@ margin-top: 25rem;
     width:60px;
     height: 60px;
   }
-
-
-  .footer-section-container {  
-    min-width: 100%;
-    background-color: #fe9e0d;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-      
-    
-  }
-  
-  .footer-text {    
-    color: #313131;
-    font-weight: 400;
-    font-size: 14px;
-  }  
 
   .App {
     max-width: 95vw;

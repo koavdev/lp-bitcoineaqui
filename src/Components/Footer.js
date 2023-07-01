@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../Assets/logo.png'
 const Footer = () => {
   return (
-    <footer>
+    <footer class="footer-container">
         <div className='footer-content'>
           <img src={Logo} alt='logo' />
           <p>Bitcoin É Aqui, um projeto de bitcoinização nas cidades de Rolante & Riozinho, Rio Grande do Sul.</p>
