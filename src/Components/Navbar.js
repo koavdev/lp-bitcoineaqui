@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import Logo from '../Assets/logo3.png';
 import { HiOutlineBars3 } from 'react-icons/hi2';
-import { AiFillHome, AiFillMail } from 'react-icons/ai';
+import { AiFillHome, AiFillMail, AiFillQuestionCircle } from 'react-icons/ai';
 import { FaBitcoin } from 'react-icons/fa';
 import { MdCardTravel } from 'react-icons/md';
 import { FaDonate, FaMapMarkerAlt } from 'react-icons/fa';
@@ -13,28 +13,40 @@ const Navbar = () => {
     const [openMenu,setOpenMenu] = useState(false)
     const menuOptions = [
         {
-            text:"Sobre",
+            text:"Início",
             icon: <AiFillHome />,
+            route:"/"
         },
         {
-            text:"Comércio",
-            icon: <FaMapMarkerAlt />,
+            text:"Sobre",
+            icon: <AiFillQuestionCircle />,
+            route:'/sobre'
         },
         {
             text:"Turismo",
             icon: <MdCardTravel />,
+            route:'/turismo'
+            
+        },
+        {
+            text:"Comércio",
+            icon: <FaMapMarkerAlt />,
+            route:'/comercio'
         },
         {
             text:"Doações",
             icon: <FaDonate />,
+            route:'/doacoes'
         },
         {
             text:"Aprender+",
             icon: <FaBitcoin />,
+            route:'/aprender'
         },
         {
             text:"Contato",
             icon: <AiFillMail />,
+            route:'/contato'
         },
     ];
 
@@ -44,6 +56,7 @@ const Navbar = () => {
             <a href="/"><img id='logo' src={Logo} alt="logo"/></a>
         </div>
         <div className='navbar-links-container'>
+            <a href='/'>Início</a>
             <a href='/sobre'>Sobre</a>
             <a href='/turismo'>Turismo</a>
             <a href='/comercio'>Comércio</a>
@@ -61,7 +74,7 @@ const Navbar = () => {
                         <ListItem key={item.text} disablePadding>
                             <ListItemButton>
                                 <ListItemIcon>{item.icon}</ListItemIcon>
-                                <ListItemText>{item.text}</ListItemText>
+                                <ListItemText><a href={item.route}>{item.text}</a></ListItemText>
                             </ListItemButton>
                         </ListItem>
                     ))}
