@@ -409,6 +409,7 @@ margin-top: 25rem;
   width: 150px;
   left: 150px;
   top: 10px;
+  z-index: 1;
 }
 
 @media (max-width: 1000px) {
