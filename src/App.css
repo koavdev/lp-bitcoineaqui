@@ -399,8 +399,10 @@ margin-top: 25rem;
 }
 
 #logo {
-  display: flex;
-  margin-top: 10px;
+  position: absolute;
+  width: 150px;
+  left: 150px;
+  top: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -439,8 +441,9 @@ margin-top: 25rem;
   }
 
   #logo {
-    display: flex;
-    margin-top: 10px;
+    position: absolute;
+    left:20px;
+    width: 90px;
   }
 
   .navbar-links-container {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Assets/logo2.png';
+import Logo from '../Assets/logo3.png';
 import { HiOutlineBars3 } from 'react-icons/hi2';
 import { AiFillHome, AiFillMail } from 'react-icons/ai';
 import { FaBitcoin } from 'react-icons/fa';
