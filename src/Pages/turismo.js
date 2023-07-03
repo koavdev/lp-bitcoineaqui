@@ -16,6 +16,17 @@ const turismo = () => {
             <p className='primary-subheading'>Turismo</p>
             <h1>O Que Fazer Em Rolante?</h1>
           </div>
+          <div className='turismo-menu'>
+            <div className='turismo-menu-card'>
+              <h3>Como Chegar?</h3>
+            </div>
+            <div className='turismo-menu-card'>
+              <h3>Hotelaria</h3>
+            </div>
+            <div className='turismo-menu-card'>
+              <h3>Pontos Turísticos</h3>
+            </div>
+          </div>
           <div className='turismo-text'>
             <p>Como uma pacata cidadezinha do interior, os domingo por aqui são bem calmos. Se você planeja nos visitar neste dia da semana, sugerimos que faça reserva prévia para sua refeição, seja em uma de nossas encantadoras pousadas ou entre as opções listadas na página Comércio.</p>
             <h3 className='turismo-subheading'>Cascatas</h3>

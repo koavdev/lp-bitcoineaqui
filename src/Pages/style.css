@@ -14,12 +14,27 @@
     margin-bottom: 30px;
 }
 
+.turismo-menu {
+    display:flex;
+    column-count: 3;
+    column-gap: 80px;
+    justify-content: center;
+}
+
+.turismo-menu-card{
+    border: 1px red solid;
+    width: 300px;
+    text-align: center;
+   
+}
+
 .about-text,
 .turismo-text {
     width: 90vh;
     text-align: justify;
     margin: 0 auto;
     font-size: 18px;
+    line-height: 30px;
 }
 
 .turismo-text p{
