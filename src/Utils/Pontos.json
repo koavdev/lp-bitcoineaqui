@@ -1,0 +1,788 @@
+[
+    {
+        "tipo": "Alimentação",
+        "nome": "Hidrate RS",
+        "telefone": "51995873578",
+        "instagram": ""
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Bolicho Valandro",
+        "telefone": "51999449685",
+        "instagram": "bolichovalandro"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Chalé da Borges",
+        "telefone": "51993350555",
+        "instagram": "chaledaborges"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "DoisZé Café Bistrô",
+        "telefone": "5127471577",
+        "instagram": "doiszecafebistro"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "San'Dea",
+        "telefone": "51997392275",
+        "instagram": "confeitaria_sandea_"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Doce Art Padaria e Confeitaria",
+        "telefone": "51980516581",
+        "instagram": "padariadoce_art"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Eltz Bier",
+        "telefone": "51998709725",
+        "instagram": "eltzbier"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Cervejaria DBuenas",
+        "telefone": "51984590660",
+        "instagram": "dbuenas_nanocervejaria"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Anderson Cakes",
+        "telefone": "51995871446",
+        "instagram": "andersoncakess"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Pizzaria Al Capone",
+        "telefone": "51985160119",
+        "instagram": "alcaponepizzaexpress"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Interia Sushi",
+        "telefone": "51995986033",
+        "instagram": "intetiasushi"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Hamburgueria Central",
+        "telefone": "51985889758",
+        "instagram": "hamburgueria_central_rolante"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Pesqueiro Paulo Reis e Família",
+        "telefone": "51996390809",
+        "instagram": ""
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Sitio Sossego",
+        "telefone": "51992362822",
+        "instagram": ""
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Restaurante D’Rouse",
+        "telefone": "5135472490",
+        "instagram": ""
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Casa do Milkshake",
+        "telefone": "51980419246",
+        "instagram": "casadomilkshake23"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Glee Sorveteira",
+        "telefone": "51993785189",
+        "instagram": "@glee_sorveteria_cafeteria"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Super Reichert Redefort",
+        "telefone": "5191430121",
+        "instagram": "superreichert"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Vinícola Finger",
+        "telefone": "51998558665",
+        "instagram": "vinhosfinger"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Vinícola Bennato",
+        "telefone": "5195958882",
+        "instagram": "vinicola_bennato"
+    },
+    {
+        "tipo": "Alimentação",
+        "nome": "Xis do Vini Rolante",
+        "telefone": "51997260101",
+        "instagram": "xisdovinirolante"
+    },
+    {
+        "tipo": "Animais",
+        "nome": "Lat Mia",
+        "telefone": "51996574263",
+        "instagram": ""
+    },
+    {
+        "tipo": "Artesã",
+        "nome": "Artes da Franci",
+        "telefone": "51999778334",
+        "instagram": "artes.dafranci"
+    },
+    {
+        "tipo": "Artesão",
+        "nome": "TEEPEE MOUNTAIN BLADES",
+        "telefone": "51982230011",
+        "instagram": "teepeemountainblades"
+    },
+    {
+        "tipo": "Associação Empresas",
+        "nome": "ACISA",
+        "telefone": "51985954831",
+        "instagram": "acisarolanteriozinho"
+    },
+    {
+        "tipo": "Automóvel",
+        "nome": "Auto Elétrica Rolantense",
+        "telefone": "51995130018",
+        "instagram": ""
+    },
+    {
+        "tipo": "Automóvel",
+        "nome": "Mecânica L&M",
+        "telefone": "51996266336",
+        "instagram": "mecanicalmcar"
+    },
+    {
+        "tipo": "Automóvel",
+        "nome": "Blackout Auto Som",
+        "telefone": "51993158779",
+        "instagram": "blackout_auto_som"
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Barbearia Iaronka",
+        "telefone": "51980264719",
+        "instagram": ""
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Cátia Sperb Depiladora",
+        "telefone": "51997899383",
+        "instagram": ""
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Natália Valandro",
+        "telefone": "51991955489",
+        "instagram": "nataliavalandro.beauty"
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Victória Eduarda Pandolfo",
+        "telefone": "51996032081",
+        "instagram": "victoriapandolfo"
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Estética Gisa",
+        "telefone": "51999451312",
+        "instagram": ""
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "LADOeme Salão de Beleza",
+        "telefone": "51998474735",
+        "instagram": "ladoeme"
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Beleza e Cia",
+        "telefone": "",
+        "instagram": "belezaeciarolante’ 51997864280"
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Anahh Borba",
+        "telefone": "51995858981",
+        "instagram": "anahhborba"
+    },
+    {
+        "tipo": "Beleza",
+        "nome": "Studio de Beleza Cassia Iasmin studio_cassiaiasmin",
+        "telefone": "",
+        "instagram": "51998352290"
+    },
+    {
+        "tipo": "Construção",
+        "nome": "João Paulo Interiores",
+        "telefone": "51997989091",
+        "instagram": ""
+    },
+    {
+        "tipo": "Construção",
+        "nome": "Estudio 1174",
+        "telefone": "51992390150",
+        "instagram": "estudio174"
+    },
+    {
+        "tipo": "Construção",
+        "nome": "Uni-k Arquitetura Completa",
+        "telefone": "51999689622",
+        "instagram": ""
+    },
+    {
+        "tipo": "Construção",
+        "nome": "AMS Arquitetura e Interiores",
+        "telefone": "51998229190",
+        "instagram": "ams.arquitetura"
+    },
+    {
+        "tipo": "Construção",
+        "nome": "RP Engenharia",
+        "telefone": "51999181596",
+        "instagram": "rpengenharia20"
+    },
+    {
+        "tipo": "Construção",
+        "nome": "Prediz Engenharia e construção",
+        "telefone": "51981369182",
+        "instagram": "@prediz.obra"
+    },
+    {
+        "tipo": "Construção",
+        "nome": "Rolante Artefatos de Cimento",
+        "telefone": "5135473479",
+        "instagram": "rolanteartefatos"
+    },
+    {
+        "tipo": "Construção",
+        "nome": "Madebley Materiais de Construção",
+        "telefone": "5135471638",
+        "instagram": "madebley"
+    },
+    {
+        "tipo": "Entregas",
+        "nome": "Serviço de Motoboy",
+        "telefone": "51980597411",
+        "instagram": "puhlvikingsmotoboy"
+    },
+    {
+        "tipo": "Escola",
+        "nome": "Escola Infantil Brinca e Ser Feliz",
+        "telefone": "51991211455",
+        "instagram": "brincar84"
+    },
+    {
+        "tipo": "Festa",
+        "nome": "Produsom",
+        "telefone": "5199783245",
+        "instagram": "produsom_someluz"
+    },
+    {
+        "tipo": "Floricultura",
+        "nome": "Floricultura Flesch",
+        "telefone": "51997757889",
+        "instagram": "ralphflesch"
+    },
+    {
+        "tipo": "Imobiliária",
+        "nome": "Real Dreams Negócios Imobiliários",
+        "telefone": "51998139922",
+        "instagram": "realdreamsimoveis"
+    },
+    {
+        "tipo": "Imobiliária",
+        "nome": "Imobiliária Backhaus e Dutra",
+        "telefone": "51996530143",
+        "instagram": "backhausedutra"
+    },
+    {
+        "tipo": "Imobiliária",
+        "nome": "LA VILLE IMOVEIS LTDA",
+        "telefone": "51999601820",
+        "instagram": "lavillaimoveispoa"
+    },
+    {
+        "tipo": "Indústria",
+        "nome": "Katiele Móveis sob medida",
+        "telefone": "51991267646",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Potencial Eletro",
+        "telefone": "51999376977",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Streit Eletrotécnica",
+        "telefone": "51992817491",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Instaladora Elétrica CAMBRUZZI",
+        "telefone": "51993577192",
+        "instagram": "cris_cambruu"
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "CV Energia Solar",
+        "telefone": "51998836969",
+        "instagram": "cv_energy"
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Comercial Sigfrield",
+        "telefone": "51996917260",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Franck & Frohlich",
+        "telefone": "5195966798",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Manejos Ecológicos",
+        "telefone": "51992362822",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Jaime Frank (limpesa pischinas)",
+        "telefone": "51985280100",
+        "instagram": ""
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Bem TE Vi - Serralheria e Vidraçaria",
+        "telefone": "51998811094",
+        "instagram": "serralheriabemtevi"
+    },
+    {
+        "tipo": "Instalação Manutenção",
+        "nome": "Sr. Mil Utilidades (Ernesto da Rosa)",
+        "telefone": "51992252808",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Via Aroma - Aromas e Essências",
+        "telefone": "51999084532",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "A'Mor Nos Detalhes",
+        "telefone": "51992723921",
+        "instagram": "_amornosdetalhes"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Pro Esporte",
+        "telefone": "51989587718",
+        "instagram": "proesporte_"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Casas Pillar",
+        "telefone": "51996917211",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Laux Bike Shop",
+        "telefone": "51999161606",
+        "instagram": "lauxbikeshop"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Macke e Cia Ltda",
+        "telefone": "5135471384",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Devolut Distribuidora e representações",
+        "telefone": "51993160400",
+        "instagram": "devolutrepresentações"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Suporte Informática",
+        "telefone": "51995355471",
+        "instagram": "suporteinformatica"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "SOS Tecnologia",
+        "telefone": "51980229637",
+        "instagram": "sostecnologiarolante"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Akoya Jóias",
+        "telefone": "51992855427",
+        "instagram": "akoya_joias"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "redlarrolante",
+        "telefone": "",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Ônix Óptica e Relojoaria",
+        "telefone": "51991952562",
+        "instagram": "oticaonix_"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Óptica Europa",
+        "telefone": "51995923450",
+        "instagram": "opticaeuropa"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Rede Paper Rolante",
+        "telefone": "51995508484",
+        "instagram": "paper.rolante"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Perfumaria do Rei",
+        "telefone": "51995098047",
+        "instagram": "perfumaria_do_rei"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Maria Presenteria",
+        "telefone": "51996459939",
+        "instagram": "mariapresenteria"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Casa Marias",
+        "telefone": "5135471374",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Sensualle Boutique",
+        "telefone": "51995918518",
+        "instagram": "sensualle_boutique_"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Feminices",
+        "telefone": "51996027845",
+        "instagram": "feminices__loja"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Cor de Rosa Clothing",
+        "telefone": "51996379477",
+        "instagram": ""
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Closetp - Paloma Marques",
+        "telefone": "51998748376",
+        "instagram": "closetp.oficial"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Nature HeadShop",
+        "telefone": "51998665552",
+        "instagram": "nature_headshop"
+    },
+    {
+        "tipo": "Loja",
+        "nome": "Vivaz - Loja de Variedades",
+        "telefone": "51995797841",
+        "instagram": "vivazlojadevariedades"
+    },
+    {
+        "tipo": "Marketing",
+        "nome": "Panda Confecções",
+        "telefone": "51983237335",
+        "instagram": ""
+    },
+    {
+        "tipo": "Marketing",
+        "nome": "Gráfica Criativa",
+        "telefone": "5135471500",
+        "instagram": "criativaartgraf"
+    },
+    {
+        "tipo": "Marketing",
+        "nome": "Gráfica Branesa",
+        "telefone": "5198895014",
+        "instagram": "graficabranesa"
+    },
+    {
+        "tipo": "Marketing",
+        "nome": "PSJOB Soluções",
+        "telefone": "51984225894",
+        "instagram": "psjobsolucoes"
+    },
+    {
+        "tipo": "Marketing",
+        "nome": "Clari Amaral - Marketing de Influência",
+        "telefone": "51996397795",
+        "instagram": "Clarii_amaral"
+    },
+    {
+        "tipo": "Projeto Social",
+        "nome": "Casa Verde da Esperança",
+        "telefone": "51991030052",
+        "instagram": "carlaadrianaforgiarini"
+    },
+    {
+        "tipo": "Projeto Social",
+        "nome": "Hospital de Rolante",
+        "telefone": "5135471300",
+        "instagram": "hospitalrolante"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Academia Optimum Shape",
+        "telefone": "51997007118",
+        "instagram": "academiaoptimumshape"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Meta Centro de Treinamento",
+        "telefone": "51996920714",
+        "instagram": "meta_centro_de_treinamento"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Dr Paulo Wust",
+        "telefone": "51984042499",
+        "instagram": "odontowust"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Clinica Silveira",
+        "telefone": "51998396538",
+        "instagram": "clinicasilveira"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "MS BEACH SPORTS",
+        "telefone": "51998870618",
+        "instagram": "msbeachsports"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Alana Rischter estética e saúde alanarischteresteta",
+        "telefone": "",
+        "instagram": "51995467796"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Farmácia Muller",
+        "telefone": "5135471096",
+        "instagram": "farmamuller"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Farmácia Rolantense",
+        "telefone": "51980443053",
+        "instagram": "farmaciarolantense"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Marcela Smaniotto - Fisioterapia Integrativa",
+        "telefone": "51997120973",
+        "instagram": "marcelasmaniotto"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Clínica Ana Cláudia Caldatto",
+        "telefone": "51999729098",
+        "instagram": "clinicaanaclaudia"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Viva e Movimente",
+        "telefone": "51997120973",
+        "instagram": "vivaemovimente"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Hospital de Rolante",
+        "telefone": "5135471300",
+        "instagram": "hospitalrolante"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Essência Massagem e Spa",
+        "telefone": "51982204925",
+        "instagram": "camilla_stock"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Relaxe pelo caminho",
+        "telefone": "51982204925",
+        "instagram": "camilla_stock"
+    },
+    {
+        "tipo": "Saúde",
+        "nome": "Diana Adams Quiropraxista",
+        "telefone": "51985942202",
+        "instagram": "dianaadamsquiro"
+    },
+    {
+        "tipo": "Serviços de Escritório",
+        "nome": "Consultoria Bitcoin é Aqui!",
+        "telefone": "51982230011",
+        "instagram": "bitcoineaqui"
+    },
+    {
+        "tipo": "Serviços de Escritório",
+        "nome": "Timmen Contabilidade LTDA",
+        "telefone": "51984259445",
+        "instagram": "timmencontabilidade"
+    },
+    {
+        "tipo": "Serviços de Escritório",
+        "nome": "Doutor Contabilidade",
+        "telefone": "51920032702",
+        "instagram": ""
+    },
+    {
+        "tipo": "Serviços de Escritórios",
+        "nome": "Lamb Advocacia e Contabilidade",
+        "telefone": "5199861849",
+        "instagram": "escritoriolamb"
+    },
+    {
+        "tipo": "Serviços de Escritórios",
+        "nome": "Helena Pinheiro Advocacia",
+        "telefone": "51998204052",
+        "instagram": "helenapinheiro_advocacia"
+    },
+    {
+        "tipo": "Serviços de Escritórios",
+        "nome": "J. Candido Advocacia",
+        "telefone": "5135472059",
+        "instagram": "j.candido.adv"
+    },
+    {
+        "tipo": "Serviços de Escritórios",
+        "nome": "Barnarte Portella Advocacia",
+        "telefone": "51998842568",
+        "instagram": "bartarteportella"
+    },
+    {
+        "tipo": "Serviços de Escritórios",
+        "nome": "Severo & Giboski Advogados",
+        "telefone": "51999601820",
+        "instagram": ""
+    },
+    {
+        "tipo": "Serviços de Escritórios",
+        "nome": "Bit Consultoria em DPO e LGPD",
+        "telefone": "51920032702",
+        "instagram": ""
+    },
+    {
+        "tipo": "Serviços de Escritórios.",
+        "nome": "E3_Expertise Estratégias Empresariais",
+        "telefone": "51997012614",
+        "instagram": "e3.company"
+    },
+    {
+        "tipo": "Tatuador",
+        "nome": "Xameu Tattoo",
+        "telefone": "51996792437",
+        "instagram": "xameucorrea"
+    },
+    {
+        "tipo": "Tri",
+        "nome": "Tri-Fios Moda Infantil",
+        "telefone": "5135472904",
+        "instagram": "trifiosmoda"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Trinity Experience",
+        "telefone": "51999343878",
+        "instagram": "siga.trinityexperience"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Dani Boniatti - Guia de Turismo",
+        "telefone": "5196796463",
+        "instagram": ""
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Fazenda Wolff",
+        "telefone": "51997427172",
+        "instagram": "fazendawolff.rs"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Cabanas Bella Vista",
+        "telefone": "51998335688",
+        "instagram": "cabanas_belavista"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Recanto da Boa Esperança",
+        "telefone": "51996861206",
+        "instagram": "recantoboaesperanca"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Bolicho Valandro",
+        "telefone": "5199449685",
+        "instagram": "bolichovalandro"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Pousada das Montanhas",
+        "telefone": "51991350665",
+        "instagram": "pousadadasmontanhasrolante"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Sitio Terra e Arte",
+        "telefone": "51997629283",
+        "instagram": "sitioterraearte"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Pousada e Lancheria Rolantchê",
+        "telefone": "51997440793",
+        "instagram": "pousada_rolantche"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Terra de Mirtilos Pousada Rural",
+        "telefone": "51992938972",
+        "instagram": "terra_de_mirt"
+    },
+    {
+        "tipo": "Turismo",
+        "nome": "Tchê Leva Turismo",
+        "telefone": "5197072829",
+        "instagram": null
+    }
+]
