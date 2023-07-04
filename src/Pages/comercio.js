@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import DataTable from 'react-data-table-component'
 
-const comercio = () => {
+const Comercio = () => {
   const columns = [
     {
       name: 'Tipo',
-      selector: row => row.tipo
+      selector: row => row.tipo,
+      sortable: true
     },
     {
-      name: 'Estabelecimento',
+      name: 'Nome',
       selector: row => row.nome,
       sortable: true
     },
@@ -28,19 +29,31 @@ const comercio = () => {
 
   const data = require('../Utils/Pontos.json')
 
+  const [records, setRecords] = useState(data);
+
+  function handleFilter(event) {
+    const newData = data.filter(row => {
+        return row.tipo.toLowerCase().includes(event.target.value.toLowerCase())
+    })
+    
+    setRecords(newData);
+  }
+
   return (
     <div>
         <Navbar/>
         <div className='page-container' style={{border: '1px solid red'}}>
-          <div className='comercio-table'>
-            <DataTable columns={columns} data={data}>
+          <div className='comercio-table-filter'>
+            <input type="text" onChange={handleFilter} />
+          </div>
+            <DataTable columns={columns} data={records} selectableRows fixedHeader pagination>
 
             </DataTable>
-            </div>
+            
         </div>
         <Footer/>
     </div>
   )
 }
 
-export default comercio
+export default Comercio
