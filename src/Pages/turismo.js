@@ -19,12 +19,18 @@ const turismo = () => {
           <div className='turismo-menu'>
             <div className='turismo-menu-card'>
               <h3>Como Chegar?</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button>Ver roteiros ⬇️</button>
             </div>
             <div className='turismo-menu-card'>
               <h3>Hotelaria</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button>Ver hotéis ⬇️</button>
             </div>
             <div className='turismo-menu-card'>
               <h3>Pontos Turísticos</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <button>Ver pontos ⬇️</button>
             </div>
           </div>
           <div className='turismo-text'>

@@ -19,14 +19,38 @@
     column-count: 3;
     column-gap: 80px;
     justify-content: center;
+    
 }
 
 .turismo-menu-card{
     border: 1px red solid;
     width: 300px;
     text-align: center;
-   
 }
+
+.turismo-menu-card p{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.turismo-menu-card button{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #fe9e0d;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+}
+ 
+.turismo-menu-card button:hover {
+    background-color: #e48f0f;
+  }
 
 .about-text,
 .turismo-text {
