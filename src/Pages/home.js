@@ -11,8 +11,8 @@ import Contato from '../Components/Contato';
 const home = () => {
   return (
     <div>
-        <Home />
-        <Sobre />
+      <Home />
+      <Sobre />
       <Turismo />
       <Comercio />
       <Doacoes />
