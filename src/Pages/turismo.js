@@ -6,7 +6,6 @@ import Cascata2 from '../Assets/cascata2.jpg'
 import Vinicola1 from '../Assets/vinicola1.jpg'
 import Vinicola2 from '../Assets/vinicola2.jpg'
 import MorroGrande from '../Assets/morroGrande.jpg'
-import ComoChegarBackground from '../Assets/bg-como-chegar.jpg'
 
 const turismo = () => {
   return (
