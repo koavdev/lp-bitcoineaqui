@@ -6,6 +6,7 @@ import Cascata2 from '../Assets/cascata2.jpg'
 import Vinicola1 from '../Assets/vinicola1.jpg'
 import Vinicola2 from '../Assets/vinicola2.jpg'
 import MorroGrande from '../Assets/morroGrande.jpg'
+import ComoChegarBackground from '../Assets/bg-como-chegar.jpg'
 
 const turismo = () => {
   return (
@@ -17,24 +18,38 @@ const turismo = () => {
             <h1>O Que Fazer Em Rolante?</h1>
           </div>
           <div className='turismo-menu'>
-            <div className='turismo-menu-card'>
-              <h3>Como Chegar?</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <a href='#pontos-turisticos'>Ver roteiros ⬇️</a>
+            <div className='turismo-menu-card' id='como-chegar'>
+              <div className='turismo-card-content'>
+                <div className='turismo-card-heading'>
+                  <h3>Como Chegar?</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href='#Roteiros'>Ver roteiros ⬇️</a>
+              </div>
             </div>
-            <div className='turismo-menu-card'>
-              <h3>Hotelaria</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <a href='#hotelaria'>Ver hotéis ⬇️</a>
+            <div className='turismo-menu-card' id='hotelaria'>
+              <div className='turismo-card-content'>
+                <div className='turismo-card-heading'>
+                  <h3>Hotelaria</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href='#Hoteis'>Ver hotéis ⬇️</a>
+              </div>
             </div>
-            <div className='turismo-menu-card'>
-              <h3>Pontos Turísticos</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <a href='#pontos-turisticos'>Ver pontos ⬇️</a>
+            <div className='turismo-menu-card' id='pontos-turisticos'>
+              <div className='turismo-card-content'>
+                <div className='turismo-card-heading'>
+                  <h3>Pontos Turísticos</h3>
+                </div>
+                <div className='turismo-card-text'>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href='#Pontos'>Ver pontos ⬇️</a>
+                </div>
+              </div>
             </div>
           </div>
           <div className='turismo-text'>
-            <div id='pontos-turisticos'>
+            <div id="Pontos">
               <p>Como uma pacata cidadezinha do interior, os domingo por aqui são bem calmos. Se você planeja nos visitar neste dia da semana, sugerimos que faça reserva prévia para sua refeição, seja em uma de nossas encantadoras pousadas ou entre as opções listadas na página Comércio.</p>
               <h3 className='turismo-subheading'>Cascatas</h3>
               <p>A <span className='turismo-focus'>Cascata do Chuvisqueiro</span> é um espetáculo natural de tirar o fôlego. Com uma queda d'água de mais de 60 metros de altura, é possível admirar a beleza da natureza em um ambiente tranquilo e revitalizante. Ideal para quem busca um momento de contato com a natureza.</p>
@@ -65,10 +80,10 @@ const turismo = () => {
                 <h4>Morro Grande</h4>
               </div>
             </div>
-            <div id='hotelaria'>
+            <div id='Hoteis'>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
             </div>
-            <div id='como-chegar'>
+            <div id='Roteiros'>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
             </div>
           </div>

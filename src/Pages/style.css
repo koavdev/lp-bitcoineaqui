@@ -16,46 +16,108 @@
 
 .turismo-menu {
     display:flex;
-    column-count: 3;
-    column-gap: 80px;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
     
 }
 
 .turismo-menu-card{
-    border: 1px red solid;
+
     width: 300px;
+    height: 400px;
     text-align: center;
+
 }
 
-.turismo-menu-card p{
-    width: 250px;
+.turismo-card-heading{
+    margin-top: 70px;
+    text-shadow: 0 0 2px #000, 1px 1px 0 #000, 2px 2px 1px #000;
+    color: #fff;
+}
+
+.turismo-card-content p{
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 70px;
+    width: 200px;
+    line-height: 25px;
+    text-shadow: 0 0 2px #000, 1px 1px 0 #000, 2px 2px 1px #000;
+    color:#fff;
 }
 
-.turismo-menu-card a{
+.turismo-card-content a{
     padding: 0.5rem 1rem;
     background-color: #fe9e0d;
+    text-shadow: 0 0 2px #000, 1px 1px 0 #000, 2px 2px 1px #000;
     border: none;
     border-radius: 5rem;
-    font-size: 1.1rem;
-    cursor: pointer;
     font-weight: 600;
     color: white;
     transition: 0.2s;
-    display:flex;
-    margin-top: 10px;
-    width: 200px;
+    display:block;
+    width: 180px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 60px;
     justify-content: center;
     text-decoration: none;
 }
  
-.turismo-menu-card a:hover {
-    background-color: #e48f0f;
-  }
+.turismo-card-content a:hover {
+    background-color: #d58103;
+}
+
+#como-chegar {
+    background-image:linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('../Assets/bg-como-chegar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#como-chegar:hover {
+    background-image:linear-gradient(rgba(255, 132, 0, 0.3), rgba(255,132,0,0.8)), url('../Assets/bg-como-chegar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: #000;
+}
+
+#hotelaria {
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../Assets/bg-hotelaria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#000;
+    background-position-x: center;
+}
+
+#hotelaria:hover {
+    background-image:linear-gradient(rgba(255, 132, 0, 0.3), rgba(255,132,0,0.8)), url('../Assets/bg-hotelaria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: #000;
+}
+
+#pontos-turisticos {
+    background-image:linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('../Assets/bg-pontos-turisticos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#pontos-turisticos:hover {
+    background-image:linear-gradient(rgba(255, 132, 0, 0.3), rgba(255,132,0,0.8)), url('../Assets/bg-pontos-turisticos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: #000;
+}
+
+.turismo-card-content {
+    position: relative;
+}
+
+
 
 .about-text,
 .turismo-text {
