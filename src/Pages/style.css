@@ -80,6 +80,8 @@
     background-size: cover;
     background-position-x: center;
     color: #000;
+    transform:scale(1.15);
+    transition: 0.6s;
 }
 
 #hotelaria {
@@ -96,6 +98,8 @@
     background-size: cover;
     background-position-x: center;
     color: #000;
+    transform:scale(1.15);
+    transition: 0.6s;
 }
 
 #pontos-turisticos {
@@ -111,6 +115,8 @@
     background-size: cover;
     background-position-x: center;
     color: #000;
+    transform:scale(1.15);
+    transition: 0.6s;
 }
 
 .turismo-card-content {
