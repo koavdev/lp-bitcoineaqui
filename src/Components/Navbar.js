@@ -71,10 +71,10 @@ const Navbar = () => {
             <Box sx={{width: 250 }} role="presentation" onClick={() => setOpenMenu(false)} onKeyDown={() => setOpenMenu(false)}>
                 <List>
                     {menuOptions.map((item) => (
-                        <ListItem key={item.text} disablePadding>
+                        <ListItem key={item.text} disablePadding >
                             <ListItemButton>
                                 <ListItemIcon>{item.icon}</ListItemIcon>
-                                <ListItemText><a href={item.route}>{item.text}</a></ListItemText>
+                                <ListItemText><a className='links' href={item.route}>{item.text}</a></ListItemText>
                             </ListItemButton>
                         </ListItem>
                     ))}

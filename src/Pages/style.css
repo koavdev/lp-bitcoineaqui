@@ -34,9 +34,7 @@
     margin-top: 10px;
 }
 
-.turismo-menu-card button{
-    margin: 0 auto;
-    margin-top: 10px;
+.turismo-menu-card a{
     padding: 0.5rem 1rem;
     background-color: #fe9e0d;
     border: none;
@@ -46,9 +44,16 @@
     font-weight: 600;
     color: white;
     transition: 0.2s;
+    display:flex;
+    margin-top: 10px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: center;
+    text-decoration: none;
 }
  
-.turismo-menu-card button:hover {
+.turismo-menu-card a:hover {
     background-color: #e48f0f;
   }
 
@@ -91,6 +96,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 @media (max-width:800px) {
     .about-text{
