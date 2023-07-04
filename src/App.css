@@ -80,6 +80,10 @@ nav {
   padding-top: 3rem;
 }
 
+.home-image-container {
+  margin-right: -80px;
+}
+
 .turismo-buttons-container,
 .aprenda-buttons-container {
   margin-top: 2rem;
