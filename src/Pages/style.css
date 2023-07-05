@@ -8,7 +8,8 @@
 }
 
 .about-heading,
-.turismo-heading {
+.turismo-heading,
+.comercio-heading {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 30px;
@@ -163,6 +164,15 @@
     width: 800px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.color {
+    color: #b1a69caf;
+}
+
+.comercio-table-filter {
+    margin: 0 auto;
+    margin-bottom: 20px;    
 }
 
 

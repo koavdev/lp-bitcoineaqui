@@ -33,25 +33,62 @@ const Comercio = () => {
 
   function handleFilter(event) {
     const newData = data.filter(row => {
-        return row.tipo.toLowerCase().includes(event.target.value.toLowerCase())
-    })
-    
+        return row.nome.toLowerCase().includes(event.target.value.toLowerCase())
+    });    
     setRecords(newData);
+  };
+
+
+  const bitcoinTheme = {
+    rows: {
+      style: {
+        backgroundColor: "#ff8f2eaf",
+        fontWeight: "bold",
+        fontSize: "14px",
+      },
+      highlightOnHoverStyle: {
+        backgroundColor: '#b1a69caf',
+      },
+    },
+    head: {
+      style: {
+        fontSize: "18px",
+        fontWeight: "bold",
+      },
+    },
+    headRow: {
+      style: {
+        backgroundColor: "orange",
+      }
+    },
+    
   }
 
   return (
     <div>
         <Navbar/>
-        <div className='page-container' style={{border: '1px solid red'}}>
-          <div className='comercio-table-filter'>
-            <input type="text" onChange={handleFilter} />
+        <div className='page-container'>
+          <div className='comercio-heading'>
+            <p className='primary-subheading'>Comércio</p>
+            <h1>Onde Aceitam Bitcoin?</h1>
           </div>
-            <DataTable columns={columns} data={records} selectableRows fixedHeader pagination>
-
-            </DataTable>
-            
+          <div className='comercio-table-filter'>
+            <div>
+              <label>Pesquisar</label>
+              <input type="text" onChange={handleFilter} />
+            </div>           
+          </div>          
+          <DataTable
+          columns={columns}
+          data={records}
+          pagination
+          highlightOnHover
+          pointerOnHover
+          striped
+          customStyles={bitcoinTheme}>
+          </DataTable>              
         </div>
-        <Footer/>
+      <Footer/>
     </div>
   )
 }
